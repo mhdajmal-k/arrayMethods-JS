@@ -10,7 +10,6 @@ console.log(evenNumbers);
 //duplicate elements
 const duplicate=[1,2,3,4,5,6,6,7,8,9,6,3,2,1]
 const nums=duplicate.filter((elem,index,ara)=>{
-    console.log(elem+"elem");
     console.log(index,"it index");
     console.log(ara.indexOf(elem));
     return ara.indexOf(elem)===index
